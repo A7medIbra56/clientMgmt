@@ -213,6 +213,7 @@ export default function ClientForm() {
             backgroundColor: "#f2f2f2",
             border: "solid 2px",
             borderRadius: "8px",
+            marginBottom: "50px",
             "& .MuiInputBase-root": { backgroundColor: "#fff" },
           }}
         >
