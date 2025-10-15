@@ -87,7 +87,7 @@ const ClientCard = ({ client, onDelete, onView, onEdit }) => {
               color="text.secondary" 
               sx={{ fontSize: { xs: "12px", sm: "14px" } }}
             >
-              {client.id}
+              #{client.id}
             </Typography>
             <Typography 
               variant="body2" 

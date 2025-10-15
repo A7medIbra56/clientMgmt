@@ -20,7 +20,6 @@ import BusinessIcon from "@mui/icons-material/Business";
 import { useNavigate, useParams } from "react-router-dom";
 import axios from "axios";
 import "../styles/ClientForm.css";
-import SnackbarClient from "../components/common/SnackbarClient.jsx";
 
 export default function ClientForm() {
   const navigate = useNavigate();
@@ -239,7 +238,7 @@ export default function ClientForm() {
             <TextField
               fullWidth
               name="companyName"
-              label="Company Name *"
+              label="Company Name **"
               value={form.companyName}
               onChange={handleChange}
             />
