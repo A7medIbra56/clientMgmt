@@ -1,0 +1,43 @@
+{
+  "clients": [
+    {
+      "id": "C2973",
+      "type": "Corporate",
+      "companyName": "compny",
+      "legalName": "Boomerang Legal Services",
+      "registrationNumber": "123131",
+      "taxNumber": "TAX-998877",
+      "website": "boomerang.com",
+      "annualRevenue": "5000000",
+      "employeeCount": "120222",
+      "industry": "Technology",
+      "createdAt": "2025-10-15"
+    },
+    {
+      "id": "C7145",
+      "type": "Corporate",
+      "companyName": "Boomerang",
+      "legalName": "Boomerang Legal Services",
+      "registrationNumber": "123131",
+      "taxNumber": "TAX-998877",
+      "website": "https://boomerang.com",
+      "annualRevenue": "oooo",
+      "employeeCount": "120222",
+      "industry": "Technology",
+      "createdAt": "2025-10-15"
+    },
+    {
+      "id": "I8354",
+      "type": "Individual",
+      "companyName": "Boomerang Ltd",
+      "legalName": "Boomerang Legal Services",
+      "registrationNumber": "123131",
+      "taxNumber": "1232",
+      "website": "https://boomerang.com",
+      "annualRevenue": "oooo",
+      "employeeCount": "120222",
+      "industry": "Tech",
+      "createdAt": "2025-10-15"
+    }
+  ]
+}

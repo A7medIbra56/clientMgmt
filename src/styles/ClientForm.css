@@ -1,0 +1,425 @@
+/* ClientForm.css - Complete Mobile Responsive Design */
+
+/* Desktop & Tablet Default Styles */
+
+.client-form-container {
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* Tablet Devices (max-width: 1024px) */
+
+@media only screen and (max-width: 1024px) {
+  .client-form-container {
+    padding: 16px !important;
+  }
+
+  .client-form-container > .MuiBox-root {
+    padding: 0 16px !important;
+    max-width: 100% !important;
+  }
+}
+/* Mobile Devices (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+  /* Main Container */
+  .client-form-container {
+    padding: 0 !important;
+    background-color: #ffffff !important;
+  }
+
+  .client-form-container > .MuiBox-root {
+    padding: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* ========== Header Card ========== */
+  .client-form-container .MuiCard-root:first-of-type {
+    padding: 12px 16px !important;
+    margin-bottom: 0 !important;
+    border-radius: 0 !important;
+    border: none !important;
+    border-bottom: 1px solid #e0e0e0 !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05) !important;
+  }
+
+  /* Back Button & Title Container */
+  .client-form-container .MuiCard-root:first-of-type > .MuiBox-root:first-of-type {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 0 !important;
+    margin-bottom: 12px !important;
+  }
+
+  /* Back Button Area */
+  .client-form-container .MuiCard-root:first-of-type .MuiIconButton-root {
+    padding: 4px !important;
+    margin-left: -4px !important;
+    margin-bottom: -4px !important;
+  }
+
+  .client-form-container .MuiCard-root:first-of-type .MuiIconButton-root + .MuiTypography-root {
+    margin-left: -4px !important;
+    font-size: 0.875rem !important;
+    margin-bottom: 8px !important;
+  }
+
+  /* Title Section */
+  .client-form-container .MuiCard-root:first-of-type .MuiBox-root:first-of-type > .MuiBox-root {
+    padding-left: 0 !important;
+    width: 100%;
+  }
+
+  .client-form-container .MuiTypography-h6 {
+    font-size: 1.15rem !important;
+    font-weight: 600 !important;
+    margin-bottom: 4px !important;
+    line-height: 1.3 !important;
+  }
+
+  .client-form-container .MuiTypography-body2 {
+    font-size: 0.8rem !important;
+    line-height: 1.4 !important;
+    color: #666 !important;
+  }
+
+  /* ========== Tabs Section ========== */
+  .client-form-container .MuiTabs-root {
+    margin-top: 8px !important;
+    min-height: 40px !important;
+  }
+
+  .client-form-container .MuiTabs-flexContainer {
+    gap: 4px;
+  }
+
+  .client-form-container .MuiTab-root {
+    font-size: 0.7rem !important;
+    min-width: auto !important;
+    padding: 8px 6px !important;
+    min-height: 40px !important;
+    flex: 1;
+    text-transform: none !important;
+    font-weight: 500 !important;
+  }
+
+  .client-form-container .MuiTabs-indicator {
+    height: 3px !important;
+    border-radius: 3px 3px 0 0 !important;
+  }
+
+  /* ========== Form Card ========== */
+  .client-form-container .MuiCard-root:last-of-type {
+    padding: 16px !important;
+    margin-top: 0 !important;
+    border-radius: 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+    background-color: #fafafa !important;
+    min-height: calc(100vh - 200px);
+  }
+
+  /* ========== Client Type Dropdown ========== */
+  .client-form-container .MuiTextField-root:first-of-type {
+    margin-bottom: 20px !important;
+  }
+
+  .client-form-container .MuiTextField-root .MuiInputBase-root {
+    background-color: #fff !important;
+    border-radius: 8px !important;
+  }
+
+  /* ========== Text Fields ========== */
+  .client-form-container .MuiTextField-root {
+    margin-bottom: 14px !important;
+    width: 100% !important;
+  }
+
+  .client-form-container .MuiInputLabel-root {
+    font-size: 0.875rem !important;
+    font-weight: 500 !important;
+  }
+
+  .client-form-container .MuiInputBase-input {
+    font-size: 0.95rem !important;
+    padding: 14px 16px !important;
+  }
+
+  .client-form-container .MuiOutlinedInput-root {
+    border-radius: 8px !important;
+  }
+
+  .client-form-container .MuiInputBase-root.Mui-focused {
+    box-shadow: 0 0 0 3px rgba(25, 118, 210, 0.1) !important;
+  }
+
+  /* ========== Grid Container ========== */
+  .client-form-container .MuiGrid-container {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+  }
+
+  .client-form-container .MuiGrid-item {
+    padding: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* ========== Icon in Input ========== */
+  .client-form-container .MuiInputAdornment-root svg {
+    font-size: 1.3rem !important;
+  }
+
+  /* ========== Divider ========== */
+  .client-form-container .MuiDivider-root {
+    margin: 20px 0 !important;
+    border-color: #e0e0e0 !important;
+  }
+
+  /* ========== Buttons Container ========== */
+  .client-form-container .MuiCard-root:last-of-type > .MuiBox-root:last-of-type {
+    flex-direction: column-reverse !important;
+    gap: 10px !important;
+    position: sticky !important;
+    bottom: 0 !important;
+    background-color: #fff !important;
+    padding: 16px !important;
+    margin: 0 -16px -16px -16px !important;
+    border-top: 1px solid #e0e0e0 !important;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.08) !important;
+  }
+
+  /* ========== Buttons ========== */
+  .client-form-container .MuiButton-root {
+    width: 100% !important;
+    padding: 14px 24px !important;
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    border-radius: 8px !important;
+    text-transform: none !important;
+    box-shadow: none !important;
+  }
+
+  .client-form-container .MuiButton-contained {
+    background-color: #1976d2 !important;
+    min-height: 48px !important;
+  }
+
+  .client-form-container .MuiButton-outlined {
+    border: 2px solid #e0e0e0 !important;
+    color: #333 !important;
+    min-height: 48px !important;
+  }
+
+  .client-form-container .MuiButton-contained:active {
+    background-color: #1565c0 !important;
+    transform: scale(0.98);
+  }
+
+  /* ========== Snackbar ========== */
+  .client-form-container .MuiSnackbar-root {
+    bottom: 80px !important;
+    left: 16px !important;
+    right: 16px !important;
+  }
+
+  .client-form-container .MuiAlert-root {
+    font-size: 0.875rem !important;
+    width: 100% !important;
+    border-radius: 8px !important;
+    padding: 12px 16px !important;
+  }
+
+  .client-form-container .MuiAlert-message {
+    padding: 0 !important;
+  }
+}
+
+/* Small Mobile Devices (max-width: 480px) */
+
+
+@media only screen and (max-width: 480px) {
+  /* Header adjustments */
+  .client-form-container .MuiCard-root:first-of-type {
+    padding: 10px 12px !important;
+  }
+
+  .client-form-container .MuiTypography-h6 {
+    font-size: 1.05rem !important;
+  }
+
+  .client-form-container .MuiTypography-body2 {
+    font-size: 0.75rem !important;
+  }
+
+  /* Tabs even smaller */
+  .client-form-container .MuiTab-root {
+    font-size: 0.65rem !important;
+    padding: 8px 4px !important;
+  }
+
+  /* Form Card */
+  .client-form-container .MuiCard-root:last-of-type {
+    padding: 12px !important;
+  }
+
+  /* Text Fields */
+  .client-form-container .MuiInputLabel-root {
+    font-size: 0.8rem !important;
+  }
+
+  .client-form-container .MuiInputBase-input {
+    font-size: 0.9rem !important;
+    padding: 12px 14px !important;
+  }
+
+  /* Buttons */
+  .client-form-container .MuiButton-root {
+    padding: 12px 20px !important;
+    font-size: 0.95rem !important;
+    min-height: 44px !important;
+  }
+
+  .client-form-container .MuiCard-root:last-of-type > .MuiBox-root:last-of-type {
+    padding: 12px !important;
+    margin: 0 -12px -12px -12px !important;
+  }
+}
+
+/* Extra Small Devices (max-width: 360px) */
+
+@media only screen and (max-width: 360px) {
+  .client-form-container .MuiTypography-h6 {
+    font-size: 0.95rem !important;
+  }
+
+  .client-form-container .MuiTab-root {
+    font-size: 0.6rem !important;
+    padding: 6px 2px !important;
+  }
+
+  .client-form-container .MuiInputBase-input {
+    font-size: 0.85rem !important;
+    padding: 10px 12px !important;
+  }
+
+  .client-form-container .MuiButton-root {
+    font-size: 0.9rem !important;
+  }
+}
+
+/* Landscape Mode for Mobile */
+
+@media only screen and (max-height: 500px) and (orientation: landscape) {
+  .client-form-container {
+    padding-top: 0 !important;
+  }
+
+  .client-form-container .MuiCard-root:first-of-type {
+    padding: 8px 12px !important;
+    margin-bottom: 0 !important;
+  }
+
+  .client-form-container .MuiCard-root:first-of-type > .MuiBox-root:first-of-type {
+    margin-bottom: 6px !important;
+  }
+
+  .client-form-container .MuiTypography-h6 {
+    font-size: 1rem !important;
+    margin-bottom: 2px !important;
+  }
+
+  .client-form-container .MuiTypography-body2 {
+    display: none !important;
+  }
+
+  .client-form-container .MuiTabs-root {
+    margin-top: 4px !important;
+    min-height: 36px !important;
+  }
+
+  .client-form-container .MuiTab-root {
+    min-height: 36px !important;
+    padding: 6px 8px !important;
+  }
+
+  .client-form-container .MuiCard-root:last-of-type {
+    padding: 12px !important;
+    min-height: auto !important;
+  }
+
+  .client-form-container .MuiTextField-root {
+    margin-bottom: 10px !important;
+  }
+
+  .client-form-container .MuiDivider-root {
+    margin: 12px 0 !important;
+  }
+
+  .client-form-container .MuiCard-root:last-of-type > .MuiBox-root:last-of-type {
+    padding: 10px !important;
+    margin: 0 -12px -12px -12px !important;
+  }
+
+  .client-form-container .MuiButton-root {
+    padding: 10px 20px !important;
+    min-height: 40px !important;
+  }
+}
+
+/* iOS Safe Area (for devices with notch) */
+
+
+@supports (padding-top: env(safe-area-inset-top)) {
+  @media only screen and (max-width: 768px) {
+    .client-form-container {
+      padding-top: env(safe-area-inset-top) !important;
+      padding-bottom: env(safe-area-inset-bottom) !important;
+    }
+
+    .client-form-container .MuiCard-root:last-of-type > .MuiBox-root:last-of-type {
+      padding-bottom: calc(16px + env(safe-area-inset-bottom)) !important;
+    }
+  }
+}
+
+/* Touch Optimization */
+
+
+@media (hover: none) and (pointer: coarse) {
+  .client-form-container .MuiButton-root {
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+  }
+
+  .client-form-container .MuiIconButton-root {
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+  }
+
+  .client-form-container .MuiTab-root {
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+  }
+}
+
+
+/* Loading States & Animations */
+
+
+@media only screen and (max-width: 768px) {
+  .client-form-container .MuiButton-root {
+    transition: all 0.2s ease-in-out;
+  }
+
+  .client-form-container .MuiTextField-root .MuiInputBase-root {
+    transition: all 0.2s ease-in-out;
+  }
+
+  .client-form-container .MuiTab-root {
+    transition: all 0.2s ease-in-out;
+  }
+}
